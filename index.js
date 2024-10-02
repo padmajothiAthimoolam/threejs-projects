@@ -12,7 +12,7 @@ const aspect = w/h; //aspect ratio
 const near = 0.1; // near clipping planes
 const far = 10; // far clipping planes
 const camera = new THREE.PerspectiveCamera(fov, aspect, near, far);
-camera.position.z = 2 
+camera.position.z = 2; //usally the camere position will be on x=0,y=0,z=0. so the object wont be visible.
 
 const scene = new THREE.Scene();
 
